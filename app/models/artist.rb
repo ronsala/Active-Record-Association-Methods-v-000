@@ -16,9 +16,4 @@ class Artist < ActiveRecord::Base
     #return the number of genres associated with the artist
     self.genres.size
   end
-
-  # def self.artists
-  #
-  # artist = Artist.find_by(name: "Drake")
-  # binding.pry
 end
