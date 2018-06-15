@@ -19,6 +19,6 @@ class Artist < ActiveRecord::Base
 
   # def self.artists
   #
-  artist = Artist.find_by(name: "Drake")
-  binding.pry
+  # artist = Artist.find_by(name: "Drake")
+  # binding.pry
 end
